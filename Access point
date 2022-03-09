@@ -26,9 +26,10 @@ while ap.active() == False:
 print('Connection successful')
 print(ap.ifconfig())
 
+#Here you can add your own html
 def web_page():
   html = """<html><head><meta name="viewport" content="width=device-width, initial-scale=1"></head>
-  <body><h1>Det virker squ!</h1><img src="https://en.meming.world/images/en/thumb/b/b9/Cursed_Cat.jpg/300px-Cursed_Cat.jpg" width=</body></html>"""
+  <body><h1>Det virker squ!</h1><img src="ADD YOUR OWN" width=</body></html>"""
   return html
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
